@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://clhpvwepjg2wj"]
+
+[ext_resource type="Script" path="res://Scripts/moving_platform.gd" id="1_i8yp0"]
+[ext_resource type="Texture2D" uid="uid://bycqrylx4y6f0" path="res://Pixel Adventure 1/Free/Traps/Falling Platforms/Off.png" id="1_poh7v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_stur3"]
+size = Vector2(32, 10)
+
+[node name="moving_platform" type="Node2D"]
+script = ExtResource("1_i8yp0")
+
+[node name="platform" type="AnimatableBody2D" parent="."]
+
+[node name="colision" type="CollisionShape2D" parent="platform"]
+visible = false
+shape = SubResource("RectangleShape2D_stur3")
+
+[node name="platform" type="Sprite2D" parent="platform"]
+texture = ExtResource("1_poh7v")

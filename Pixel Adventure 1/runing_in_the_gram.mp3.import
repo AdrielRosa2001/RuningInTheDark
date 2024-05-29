@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bsn5015lyxg0u"
+path="res://.godot/imported/runing_in_the_gram.mp3-660cec32a0f9cf9627b623e72dddb4d5.mp3str"
+
+[deps]
+
+source_file="res://Pixel Adventure 1/runing_in_the_gram.mp3"
+dest_files=["res://.godot/imported/runing_in_the_gram.mp3-660cec32a0f9cf9627b623e72dddb4d5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
